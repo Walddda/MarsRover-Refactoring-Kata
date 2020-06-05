@@ -2,6 +2,7 @@ package mars.rover;
 
 public class MarsRover {
 
+
     public static String move(int x, int y, char direction, String instructions) {
         if (!instructions.isEmpty()) {
             char instruction = instructions.charAt(0);
@@ -38,5 +39,9 @@ public class MarsRover {
             }
         }
         return x + " " + y + " " + direction;
+    }
+
+    void test(){
+        System.out.println("yes");
     }
 }

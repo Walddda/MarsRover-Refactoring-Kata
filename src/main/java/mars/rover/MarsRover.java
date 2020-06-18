@@ -39,9 +39,9 @@ public class MarsRover {
             }
         }
         return x + " " + y + " " + direction;
-    }
 
+}
     void test(){
-        System.out.println("yes");
+        System.out.println("test");
     }
 }

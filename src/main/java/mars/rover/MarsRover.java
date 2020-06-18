@@ -40,8 +40,4 @@ public class MarsRover {
         }
         return x + " " + y + " " + direction;
     }
-
-    void test(){
-        System.out.println("yes");
-    }
 }
